@@ -61,7 +61,12 @@
                 <img src="images/Decor_Present.svg">
                 <p>Наши клиенты получают скидку 10% на материалы</p>
             </article>
-            <div class="zakaz">
+            <button class="zakaz" id="opener">
+                <a href="#">
+                    Заказать проект
+                </a>
+            </button>
+            <div class="dialog_window"id="dialog">
            <a href="#">
                Заказать проект
            </a>
@@ -69,6 +74,7 @@
         </div>
     </section>
 </header>
+
 <section class="second_page">
     <img src="images/Decor_back_balls.svg">
     <div class="d-flex">
@@ -147,9 +153,8 @@
                 <h4>Innenlatex Seidenmatt FEIDAL</h4>
                 <p>Особливо стійка до миття та до дії миючих та дезінфікуючих засобів, має нейтральний запах.</p>
             </div>
-
         </div>
-        <div class="zakaz">
+        <div class="left_order">
             <a href="#">
                 Оставить заявку
             </a>
@@ -160,13 +165,14 @@
 <section class="planned_cost">
         <div class="container">
             <div class="bgc_white">
-                <h3>Рассчитайте ориентировочную стоимость выполнения Ваших работ ответив всего на 5 вопросов</h3>
+                <h3>Рассчитайте ориентировочную стоимость выполнения Ваших работ<br> ответив всего на 5 вопросов</h3>
             </div>
-            <div class="bgc_white container_2" id="accordion">
-                <h3 class="d-flex">
+            <div class="container_2" id="accordion">
+                <h3 class="d-flex bgc_white">
                     <span>Какая услуга Вас интересует?</span>
                     <span>Вопрос 1 из 5</span>
                 </h3>
+                <div class="bgc_white">
                 <div class="flex bgc_1">
                     <div class="form_service">
                         <form action="#" method="get" name="questions">
@@ -192,12 +198,13 @@
                         </div>
                     </div>
                 </div>
-
+            </div>
 
                 <h3 class="d-flex">
                     <span>Какая услуга Вас интересует?</span>
                     <span>Вопрос 1 из 5</span>
                 </h3>
+                <div class="bgc_white">
                 <div class="flex bgc_1">
                     <div class="form_service">
                         <form action="#" method="get" name="questions">
@@ -225,8 +232,8 @@
                 </div>
             </div>
         </div>
+        </div>
     </section>
-</section>
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script src="scripts/js.js"></script>
 <script src="scripts/owl.carousel.js"></script>
